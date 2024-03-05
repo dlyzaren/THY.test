@@ -37,9 +37,9 @@ public class BiletTests {
 
     }
 
-    ///@AfterClass
-  // public static void tearDown(){driver.quit();
-   // }
+    @AfterClass
+    public static void tearDown(){driver.quit();
+   }
 
     @Test
     public void test01() throws InterruptedException {
